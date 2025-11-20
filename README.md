@@ -50,7 +50,7 @@ Installation
 
    Building the APK
 
-   npm install -g eas-cli
-   eas build:configure
-   eas build -p android --profile preview
+   # npm install -g eas-cli
+  # eas build:configure
+  # eas build -p android --profile preview
 
