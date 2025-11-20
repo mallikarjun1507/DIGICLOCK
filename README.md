@@ -1,7 +1,7 @@
 A modern, minimal, and smooth Timer App built using Expo SDK 54, React Native, and Expo Router.
 The app includes features like animated timers, haptic feedback, custom wheel pickers, and a clean UI optimized for Android devices.
 
- Features
+ #Features
 
  Start, Pause & Reset Timer
 
@@ -21,7 +21,7 @@ The app includes features like animated timers, haptic feedback, custom wheel pi
 
  Background timer support (optional)
 
- Tech Stack
+ #Tech Stack
 Category	      Technology
 
 Framework	   Expo SDK 54, React Native 0.81
@@ -34,23 +34,23 @@ Icons        	@expo/vector-icons, Lucide Icons
 Build Tools  	EAS Build, Gradle (for local APK)
 
 
-Installation
+#Installation
 1. Clone the repository
   git clone https://github.com/mallikarjun1507/DIGICLOCK.git
 
    cd DIGICLOCK
 
-2. Install dependencies
+# 2. Install dependencies
    npm install
 
-3. Start the app
+#3. Start the app
    npx expo start
 
    Scan the QR with Expo Go
 
-   Building the APK
+  # Building the APK
 
-   # npm install -g eas-cli
-  # eas build:configure
-  # eas build -p android --profile preview
+   npm install -g eas-cli
+   eas build:configure
+   eas build -p android --profile preview
 
