@@ -57,6 +57,8 @@ Build Tools ---- 	EAS Build, Gradle (for local APK)
 
   # Building the APK
 
+  npx expo prebuild
+
    npm install -g eas-cli
    
    eas build:configure
