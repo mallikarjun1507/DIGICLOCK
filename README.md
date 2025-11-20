@@ -24,21 +24,21 @@ The app includes features like animated timers, haptic feedback, custom wheel pi
  #Tech Stack
 Category	      Technology
 
-Framework	   Expo SDK 54, React Native 0.81
+Framework	----   Expo SDK 54, React Native 0.81
 
-Navigation	   Expo Router (v6)
+Navigation	 ----  Expo Router (v6)
 
-Animations	   react-native-reanimated v4
+Animations	----   react-native-reanimated v4
 
-UI	            expo-linear-gradient, expo-blur, lucide-react-native
+UI	       ----     expo-linear-gradient, expo-blur, lucide-react-native
 
-Device APIs 	expo-notifications, expo-haptics, expo-device
+Device APIs ----	expo-notifications, expo-haptics, expo-device
 
-Picker	      react-native-wheel-picker-expo
+Picker	   ----   react-native-wheel-picker-expo
 
-Icons        	@expo/vector-icons, Lucide Icons
+Icons     ----   	@expo/vector-icons, Lucide Icons
 
-Build Tools  	EAS Build, Gradle (for local APK)
+Build Tools ---- 	EAS Build, Gradle (for local APK)
 
 
 #Installation
