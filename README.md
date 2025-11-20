@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+A modern, minimal, and smooth Timer App built using Expo SDK 54, React Native, and Expo Router.
+The app includes features like animated timers, haptic feedback, custom wheel pickers, and a clean UI optimized for Android devices.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ Features
 
-## Get started
+ Start, Pause & Reset Timer
 
-1. Install dependencies
+ Beautiful UI with gradients & blur effects
 
-   ```bash
+ Wheel Picker for hours, minutes, seconds
+
+ Haptics feedback (expo-haptics)
+
+ Smooth animations (Reanimated v4)
+
+ Safe-area & gesture handler support
+
+ Android adaptive icon support
+
+ Light & Dark mode ready
+
+ Background timer support (optional)
+
+ Tech Stack
+Category	      Technology
+
+Framework	   Expo SDK 54, React Native 0.81
+Navigation	   Expo Router (v6)
+Animations	   react-native-reanimated v4
+UI	            expo-linear-gradient, expo-blur, lucide-react-native
+Device APIs 	expo-notifications, expo-haptics, expo-device
+Picker	      react-native-wheel-picker-expo
+Icons        	@expo/vector-icons, Lucide Icons
+Build Tools  	EAS Build, Gradle (for local APK)
+
+
+Installation
+1. Clone the repository
+  git clone https://github.com/mallikarjun1507/DIGICLOCK.git
+
+   cd DIGICLOCK
+
+2. Install dependencies
    npm install
-   ```
 
-2. Start the app
-
-   ```bash
+3. Start the app
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+   Scan the QR with Expo Go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   Building the APK
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   npm install -g eas-cli
+   eas build:configure
+   eas build -p android --profile preview
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
